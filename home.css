@@ -1,4 +1,23 @@
-.flex-container {
-    display: flex;
-    flex-wrap: wrap-reverse;
+
+
+
+
+body {
+    margin-top: 0 auto;
 }
+
+nav {
+    background-color: #F4F6Fc;
+    padding: 0;
+}
+
+nav > a {
+    background-color: #F4F6Fc;
+    padding: 2rem;
+    display: inline-block;
+    text-decoration: none;
+    color: #090d2f;
+    margin: 10;
+
+}
+

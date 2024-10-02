@@ -34,7 +34,7 @@ h1 {
 }
 
 h2 {
-    font-size: 40px;
+    font-size: 30px;
     text-align: center;
 }
 
@@ -51,3 +51,9 @@ h4 {
 p {
     text-align: center;
 }
+
+.section-1 {
+    background-color: #E4F3FF;
+
+}
+

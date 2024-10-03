@@ -9,7 +9,10 @@
         <a href="/Automated convenience.html">Communities</a> |
         <a href="/Safety.html">About Us</a> |
         <a href="/Study.html">Visit Our Model</a> |
-        <a href="/Safety.html">Menu</a> |
+        <div class="dropdown">
+            <span> <a href="/Safety.html">Menu</a> |</span>
+
+        </div>
     </nav>
 <body>
     <section class="section-1">
@@ -26,7 +29,27 @@
     <img src="/for picture/advanced technology house 2.webp" width="300" height="300" />
     <img src="/for picture/advanced technology house 3.jpg" width="300" height="300" />
     </section>
-    
+    <style>
+        .dropdown {
+            position: relative;
+            display: inline-block;
+        }
+        
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #f9f9f9;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            padding: 12px 16px;
+            z-index: 1;
+        }
+        
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+    </style>
+
 
 </body>
 </html>

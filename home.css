@@ -59,13 +59,12 @@ p {
 
 .section-2 {
     background-color: #15182B;
-
-    
 }
 
 img {
     border-radius: 10%;
     margin: .5rem;
     width: 40%;
+    margin: 1; 
 }
 

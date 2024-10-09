@@ -15,12 +15,13 @@ body {
     margin-top: 0 auto;
 }
 
+
+
 nav {
     background-color: #F4F6Fc;
     padding: 0;
     text-align: center;
     text-wrap: wrap;
-    object-fit: contain;
 }
 
 nav > a {
@@ -31,7 +32,6 @@ nav > a {
     color: #090d2f;
     margin: 10;
     text-align: center;
-
 }
 
 /* .image {
@@ -65,7 +65,8 @@ p {
 
 .section-1 {
     background-color: #E4F3FF;
-
+    display: block;
+    padding: 2rem;
 }
 
 .section-2 {
@@ -82,4 +83,21 @@ p {
     height: 275px;
 }
 
+.responsive {
+    width: 100%;
+    height: auto;
+}
 
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+    font-size: .75cm;
+}
+
+.center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}

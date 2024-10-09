@@ -16,7 +16,6 @@ body {
 }
 
 
-
 nav {
     background-color: #F4F6Fc;
     padding: 0;
@@ -34,6 +33,30 @@ nav > a {
     margin: 10;
     text-align: center;
 }
+
+.topnav {
+    background-color: #F4F6Fc;
+}
+
+.topnav a {
+    color: #15182B;
+    text-align: center;
+    padding: 40px 76px;
+    font-size: x-large;
+    text-decoration: none;
+}
+
+.topnav a:hover {
+    background-color: #15182B;
+    color: #F4F6Fc;
+}
+
+.topnav a.active {
+    background-color: #F4F6Fc;
+    color: #15182B;
+}
+
+
 
 /* .image {
     flex-flow: column wrap;
@@ -67,7 +90,7 @@ p {
 .section-1 {
     background-color: #E4F3FF;
     display: block;
-    padding: 2rem;
+    padding: 1%;
 }
 
 .section-2 {

@@ -19,6 +19,8 @@ nav {
     background-color: #F4F6Fc;
     padding: 0;
     text-align: center;
+    text-wrap: wrap;
+    object-fit: contain;
 }
 
 nav > a {
@@ -79,3 +81,5 @@ p {
     width: 30%;
     height: 275px;
 }
+
+

@@ -25,6 +25,7 @@ nav {
 }
 
 nav > a {
+    float: none;
     background-color: #F4F6Fc;
     padding: 2rem;
     display: inline-block;

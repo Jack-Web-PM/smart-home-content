@@ -85,6 +85,8 @@ h4 {
 
 p {
     text-align: center;
+    color: #15182B;
+    text-shadow: #15182B;
 }
 
 .section-1 {
@@ -125,3 +127,4 @@ p {
     left: 50%;
     transform: translate(-50%, -50%);
 }
+
